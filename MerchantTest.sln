@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MerchantProgram", "MerchantProgram\MerchantProgram.csproj", "{661E1FCC-2BD3-4291-945C-79C7190FF7B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merchant.Core", "Merchant.Core\Merchant.Core.csproj", "{5ED503FB-2DE1-42A4-8DB7-2710E0145638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant.Domain", "Merchant.Domain\Merchant.Domain.csproj", "{1C63D416-433E-4B67-AE22-D8F5DD3F7098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{D58D2533-2C35-4459-8299-692B9B1FDDC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{470D4B19-E250-4EEB-AF6D-871D17BD1B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{9E05CDE7-9872-475B-886A-542054AA6107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant.Data", "Merchant.Data\Merchant.Data.csproj", "{9E6B0B0F-1DE9-42E4-8378-4D46B3055987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{661E1FCC-2BD3-4291-945C-79C7190FF7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661E1FCC-2BD3-4291-945C-79C7190FF7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661E1FCC-2BD3-4291-945C-79C7190FF7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661E1FCC-2BD3-4291-945C-79C7190FF7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED503FB-2DE1-42A4-8DB7-2710E0145638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED503FB-2DE1-42A4-8DB7-2710E0145638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED503FB-2DE1-42A4-8DB7-2710E0145638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED503FB-2DE1-42A4-8DB7-2710E0145638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C63D416-433E-4B67-AE22-D8F5DD3F7098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C63D416-433E-4B67-AE22-D8F5DD3F7098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C63D416-433E-4B67-AE22-D8F5DD3F7098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C63D416-433E-4B67-AE22-D8F5DD3F7098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6B0B0F-1DE9-42E4-8378-4D46B3055987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6B0B0F-1DE9-42E4-8378-4D46B3055987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6B0B0F-1DE9-42E4-8378-4D46B3055987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6B0B0F-1DE9-42E4-8378-4D46B3055987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{661E1FCC-2BD3-4291-945C-79C7190FF7B2} = {D58D2533-2C35-4459-8299-692B9B1FDDC6}
+		{5ED503FB-2DE1-42A4-8DB7-2710E0145638} = {470D4B19-E250-4EEB-AF6D-871D17BD1B60}
+		{1C63D416-433E-4B67-AE22-D8F5DD3F7098} = {470D4B19-E250-4EEB-AF6D-871D17BD1B60}
+		{9E6B0B0F-1DE9-42E4-8378-4D46B3055987} = {9E05CDE7-9872-475B-886A-542054AA6107}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8542B240-66BF-4628-A56A-DBBA5D49D3EF}
+	EndGlobalSection
+EndGlobal
